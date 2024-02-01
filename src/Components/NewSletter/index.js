@@ -31,7 +31,7 @@ const newSletter = () => {
         <div className={style.input2}>
           <Input nome="Email" />
         </div>
-        <Button>Assinar Newsletter</Button>
+        <Button nome="Assinar Newsletter" />
       </div>
       <div className={style.listCelular}>
         <ul>
