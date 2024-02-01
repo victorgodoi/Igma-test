@@ -36,3 +36,17 @@
 .input2{
   margin-bottom: $spacing-stack-lg;
 }
+
+.listCelular{
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(4,1fr);
+  margin-left: 162px;
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+  }
+
+}
