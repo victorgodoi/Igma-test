@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+#clients{
+  width: 1624px;
+  height: 900px;
+  display: flex;
+}
+
+.Content{
+  p{
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    line-height: $line-height-lg;
+    text-align: left;
+    color: $color-base-dark-main;
+    margin: 330px 0;
+    margin-right: 162px; 
+  }
+}
+
+.ListClients{
+  display: grid;
+  grid-gap: 105px 0;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0 98px;
+}
