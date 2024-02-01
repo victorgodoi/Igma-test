@@ -30,12 +30,12 @@
   color: $color-base-dark-main;
 }
 
-.input1{
-  margin-bottom: $spacing-stack-xxxs;
-}
-
-.input2{
+.inputs{
   margin-bottom: $spacing-stack-lg;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .listCelular{

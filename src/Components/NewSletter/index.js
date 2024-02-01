@@ -25,10 +25,8 @@ const newSletter = () => {
           Desenvolva-se conosco com conteúdos sobre Tecnologia e Design a cada
           15 dias.
         </p>
-        <div className={style.input1}>
+        <div className={style.inputs}>
           <Input nome="Nome" />
-        </div>
-        <div className={style.input2}>
           <Input nome="Email" />
         </div>
         <Button nome="Assinar Newsletter" />
