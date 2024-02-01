@@ -21,7 +21,7 @@
 
 .ListClients{
   display: grid;
-  grid-gap: 105px 0;
+  gap: 105px;
   grid-template-columns: repeat(3,1fr);
-  margin: 0 98px;
+  margin-left: 162px;
 }
