@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.styleOfFooter{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid $color-base-dark-main;
+  padding-top: $spacing-stack-sm;
+  margin-bottom: $spacing-stack-xxxl;
+
+  p{
+    font-size: $font-size-md;
+    font-weight: $font-weight-medium;
+    line-height: $line-height-lg;
+    text-align: left;
+    color: $color-base-dark-main;
+  }
+}
+
