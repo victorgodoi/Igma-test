@@ -12,6 +12,7 @@
   font-weight: $font-weight-medium;
   line-height: $line-height-xl;
   border-bottom: 2px solid $color-base-dark-highlight;
+  outline: none;
 
   &:focus{
     border-bottom: 3px solid $color-base-dark-highlight;
