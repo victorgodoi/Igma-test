@@ -3,4 +3,39 @@
 .classButtton{
   height: 56px;
   min-width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-base-light-contrast;
+  color: $color-base-light-contrast;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-lg;
+  padding: $spacing-inline-md;
+  background-color: $color-base-dark-highlight;
+  border: 1px solid $color-base-dark-highlight;
+  cursor: pointer;
+
+  &:focus{
+    border-width: $border-width-thin;
+    border-color: $color-primary-main;
+    background-color: $color-base-dark-main;
+  }
+
+  &:hover{
+    background-color: $color-base-dark-main;
+    border-color: $color-base-dark-main;
+  }
+
+  &:active{
+    color: $color-base-light-secondary;
+    border-color: $color-base-light-secondary;
+  }
+
+  &:disabled{
+    background-color: $color-base-dark-contrast;
+    color: $color-base-light-secondary;
+    cursor: not-allowed;
+    border-color: $color-base-dark-contrast;
+  }
 }
