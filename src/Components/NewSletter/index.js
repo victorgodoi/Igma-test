@@ -1,5 +1,6 @@
 import style from "./newSletter.module.scss";
 import Button from "../Button";
+import Input from "../InputText";
 
 const newSletter = () => {
   return (
@@ -7,8 +8,8 @@ const newSletter = () => {
       <div>
         <p></p>
         <p></p>
-        {/* component imput */}
-        {/* component imput */}
+        <Input nome="Nome" />
+        <Input nome="Email" />
         <Button />
       </div>
       <div></div>

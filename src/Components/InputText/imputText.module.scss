@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+
+.classInput{
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: $color-base-dark-highlight;
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-xl;
+  background-color: $color-base-transparent;
+  border-bottom: 2px solid $color-base-dark-highlight;
+
+  &:focus{
+    border-bottom: 3px solid $color-base-dark-highlight;
+    border: 1px solid $color-primary-light;
+  }
+
+  &:hover{
+    border-bottom: 3px solid $color-base-dark-highlight;
+  }
+
+  &:active{
+    font-weight: $font-weight-semibold;
+  }
+
+  &:disabled{
+    border-color: $color-base-dark-contrast;
+    color: $color-base-dark-contrast;
+    cursor: not-allowed;
+  }
+
+//add error
+
+}
