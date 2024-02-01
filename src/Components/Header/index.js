@@ -1,8 +1,11 @@
 import styles from "./header.module.scss";
 import LogoHeader from "../../Images/LogoHeader.svg";
 import CircularButton from "../CircularButton";
+//import { useState } from "react";
 
 const header = () => {
+  //const [avtar, atualizarAvatar] = useState();
+
   return (
     <header className={styles.header}>
       <img
@@ -14,6 +17,7 @@ const header = () => {
         title="Logo da Página"
       />
       <CircularButton />
+      {/* <CircularButton onClick={atualizarAvatar} /> */}
     </header>
   );
 };

@@ -1,9 +1,9 @@
 import style from "./circularButton.module.scss";
 import Icon from "../../Images/iconUser.svg";
 
-const circularButton = () => {
+const circularButton = ({ onClick }) => {
   return (
-    <button className={style.styleButton}>
+    <button className={style.styleButton} onClick={onClick}>
       <img src={Icon} width="24px" height="24px" alt="Avatar" title="Avatar" />
     </button>
   );
