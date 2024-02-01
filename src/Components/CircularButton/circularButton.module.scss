@@ -1,0 +1,19 @@
+@import '../../variables.scss';
+
+.styleButton{
+  height: 48px;
+  //adicionei o width
+  width: 48px;
+  display: flex;
+  align-items: center;
+  // v-align: center;
+  // incon-color: $color-primary-contrast;
+  // incon-size: 24px;
+  border-radius: $border-radius-pill;
+  background-color: $color-primary-main;
+  cursor: pointer;
+  //tirar depois
+  margin-right: 160px;
+  
+  //cores para hover, focus, click e disable nao tem variável
+}
