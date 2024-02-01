@@ -1,9 +1,9 @@
-import "./App.scss";
+import styled from "./App.module.scss";
 import Header from "./Components/Header";
 
 function App() {
   return (
-    <div>
+    <div id={styled.page}>
       <Header />
     </div>
   );
