@@ -4,18 +4,18 @@
 $font-family-base: 'Plus Jakarta Sans', sans-serif;
 
 //font-weight
-$font-weight-extrabold: 800;
-$font-weight-bold: 700;
-$font-weight-semibold: 600;
-$font-weight-medium: 400;
 $font-weight-regular: 300;
+$font-weight-medium: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
 
 //font-size
 $font-size-xxs: 14px;
-$font-size-md: 24px;
-$font-size-xxl: 48px;
-$font-size-lg: 32px;
 $font-size-xs: 16px;
+$font-size-md: 24px;
+$font-size-lg: 32px;
+$font-size-xxl: 48px;
 
 //line-height
 $line-height-sm: 120%;
@@ -29,10 +29,12 @@ $color-primary-light: #F3C96F;
 $color-primary-dark: #A88334;
 $color-base-dark-main: #333333;
 $color-base-dark-highlight: #211E1E;
-$color-base-transparent: #ffffff00;
-$color-base-light-contrast: #ffffff;
 $color-base-dark-contrast: #AEAEAE;
+$color-base-light-contrast: #ffffff;
 $color-base-light-secondary: #F5F5F5;
+$color-base-transparent: #ffffff00;
+$color-error-main: #D32F2F;
+$color-error-dark: #C62828;
 
 //border-radius
 $border-radius-pill: 500px;
@@ -44,9 +46,14 @@ $border-width-thin: 2px;
 $spacing-inline-xxxs: 16px;
 $spacing-inline-md: 48px;
 
+
 //spacing-stack
+$spacing-stack-xxxs: 16px;
+$spacing-stack-sm: 40px;
 $spacing-stack-md: 48px;
+$spacing-stack-lg: 56px;
 $spacing-stack-xl: 64px;
+$spacing-stack-xxxl: 120px;
 
 //Content Size
 $desktop-size: 1624px;
