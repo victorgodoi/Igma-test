@@ -1,10 +1,9 @@
 @import '../../variables.scss'; 
 
 #hero {
-  width: 1624px;
-  height: 900px;
   display: flex;
-  padding: 120px 137px 0 137px;
+  justify-content: center;
+  padding-top: 120px;
 }
 
 .divImg {
@@ -26,21 +25,23 @@
   div{
     display: flex;
     align-items: center;
+    p{
+      font-size: $font-size-md;
+      font-weight: $font-weight-medium;
+      line-height: $line-height-sm;
+      text-align: left;
+      color: $color-base-dark-main;
+      padding-right: $spacing-inline-xxxs;
+    }
   }
 
   p{
-    font-size: $font-size-md;
-    font-weight: $font-weight-medium;
-    line-height: $line-height-sm;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    line-height: $line-height-lg;
     text-align: left;
     color: $color-base-dark-main;
     padding-right: $spacing-inline-xxxs;
-
-    &:last-of-type{
-      font-size: $font-size-lg;
-      font-weight: $font-weight-semibold;
-      line-height: $line-height-lg
-    }
   }
 
   h1{

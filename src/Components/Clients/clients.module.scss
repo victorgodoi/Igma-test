@@ -1,20 +1,21 @@
 @import '../../variables.scss';
 
 #clients{
-  width: 1624px;
-  height: 900px;
   display: flex;
+  margin-top: 98px;
 }
 
 .Content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   p{
     font-size: $font-size-lg;
     font-weight: $font-weight-semibold;
     line-height: $line-height-lg;
     text-align: left;
     color: $color-base-dark-main;
-    margin: 330px 0;
-    margin-right: 162px; 
   }
 }
 

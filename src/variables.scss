@@ -15,10 +15,12 @@ $font-size-xxs: 14px;
 $font-size-md: 24px;
 $font-size-xxl: 48px;
 $font-size-lg: 32px;
+$font-size-xs: 16px;
 
 //line-height
 $line-height-sm: 120%;
 $line-height-lg: 150%;
+$line-height-xl: 175%;
 
 //colors
 $color-primary-main: #F1BC4B;
@@ -27,6 +29,10 @@ $color-primary-light: #F3C96F;
 $color-primary-dark: #A88334;
 $color-base-dark-main: #333333;
 $color-base-dark-highlight: #211E1E;
+$color-base-transparent: #ffffff00;
+$color-base-light-contrast: #ffffff;
+$color-base-dark-contrast: #AEAEAE;
+$color-base-light-secondary: #F5F5F5;
 
 //border-radius
 $border-radius-pill: 500px;
@@ -36,7 +42,11 @@ $border-width-thin: 2px;
 
 //spacing-inline
 $spacing-inline-xxxs: 16px;
+$spacing-inline-md: 48px;
 
 //spacing-stack
 $spacing-stack-md: 48px;
 $spacing-stack-xl: 64px;
+
+//Content Size
+$desktop-size: 1624px;

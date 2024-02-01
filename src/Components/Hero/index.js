@@ -1,14 +1,14 @@
-import styles from "./hero.module.scss";
+import style from "./hero.module.scss";
 import imageHero3x from "../../Images/Image@3x.png";
 import LogotipoIgma from "../../Images/logotipoIgma.svg";
 import vetorImage from "../../Images/vetorImage.svg";
 
 const hero = () => {
   return (
-    <div id={styles.hero}>
-      <div className={styles.divImg}>
+    <div id={style.hero}>
+      <div className={style.divImg}>
         <img
-          className={styles.floatingImage}
+          className={style.floatingImage}
           src={vetorImage}
           width="60px"
           height="157px"
@@ -18,12 +18,12 @@ const hero = () => {
         <img
           src={imageHero3x}
           width="525px"
-          height="780px"
+          height="778px"
           alt="paisagem vulcanica"
           title="paisagem vulcanica"
         />
       </div>
-      <div className={styles.divContent}>
+      <div className={style.divContent}>
         <div>
           <p>Prazer, somos</p>
           <img

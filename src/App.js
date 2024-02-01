@@ -1,17 +1,16 @@
-import styled from "./App.module.scss";
+import style from "./App.module.scss";
 import Header from "./Components/Header";
-// import limitedContent from "./Components/LimitedContent";
 import Hero from "./Components/Hero";
 import Clients from "./Components/Clients";
 
 function App() {
   return (
-    <div id={styled.page}>
+    <div id={style.page}>
       <Header />
-      <div id={styled.limitedContent}>
+      <section id={style.limitedContent}>
         <Hero />
         <Clients />
-      </div>
+      </section>
     </div>
   );
 }

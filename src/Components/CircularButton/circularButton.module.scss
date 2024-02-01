@@ -2,18 +2,35 @@
 
 .styleButton{
   height: 48px;
-  //adicionei o width
   width: 48px;
   display: flex;
   align-items: center;
-  // v-align: center;
-  // incon-color: $color-primary-contrast;
-  // incon-size: 24px;
+  justify-content: center;
   border-radius: $border-radius-pill;
   background-color: $color-primary-main;
+  border: 1px solid $color-primary-main;
   cursor: pointer;
-  //tirar depois
-  margin-right: 160px;
-  
-  //cores para hover, focus, click e disable nao tem variável
+
+  &:focus{
+    border-width: $border-width-thin;
+    border-color: $color-primary-contrast;
+    background-color: $color-primary-light;
+  }
+
+  &:hover{
+    background-color: $color-primary-light;
+    border-color: $color-primary-light;
+  }
+
+  &:active{
+    background-color: $color-primary-dark;
+    border-color: $color-primary-dark;
+  }
+
+  &:disabled{
+    background-color: $color-base-dark-contrast;
+    color: $color-base-light-secondary;
+    cursor:not-allowed;
+    border-color: $color-base-dark-contrast;
+  };
 }

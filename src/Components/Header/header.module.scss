@@ -1,8 +1,19 @@
+@import '../../variables.scss';
+
 .header{
   display: flex;
   height: 80px;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: flex-end;
+  width: $desktop-size;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background-color: $color-base-transparent;
+}
+
+.logo{
+  left: 0;
+  position: fixed;
 }
 

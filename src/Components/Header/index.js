@@ -6,6 +6,7 @@ const header = () => {
   return (
     <header className={styles.header}>
       <img
+        className={styles.logo}
         src={LogoHeader}
         width="120px"
         height="42"

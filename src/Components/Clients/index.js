@@ -1,4 +1,4 @@
-import styles from "./clients.module.scss";
+import style from "./clients.module.scss";
 import MRV from "../../Images/mrv.svg";
 import Comgas from "../../Images/comgas.svg";
 import Centauro from "../../Images/centauro.svg";
@@ -17,15 +17,15 @@ const clients = () => {
   const heightIamge = 176;
 
   return (
-    <div id={styles.clients}>
-      <div className={styles.Content}>
+    <div id={style.clients}>
+      <div className={style.Content}>
         <p>
           Expressamos mais de 20 anos de experiência criando plataformas
           digitais para as maiores empresas do Brasil, impactando milhões de
           pessoas.
         </p>
       </div>
-      <div className={styles.ListClients}>
+      <div className={style.ListClients}>
         <ul>
           <li>
             <img
