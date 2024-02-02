@@ -66,7 +66,18 @@
 
   .content{
     max-width: 304px;
+    p{
+      font-size: $font-size-xs;
+    }
+  }
 
+  .listClients{
+    gap: 0;
+
+    img{
+      width: 170px;
+      height: 124px;
+    }
   }
 
 }
