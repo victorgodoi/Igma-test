@@ -17,8 +17,9 @@ const hero = () => {
         />
         <img
           src={imageHero3x}
-          width="525px"
-          height="778px"
+          // width="525px"
+          // height="778px"
+          className={style.imageHero}
           alt="paisagem vulcanica"
           title="paisagem vulcanica"
         />

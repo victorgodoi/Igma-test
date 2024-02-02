@@ -4,7 +4,7 @@
   display: flex;
   height: 80px;
   justify-content: flex-end;
-  width: $desktop-size;
+  width: $desktop-size-lg;
   align-items: center;
   position: sticky;
   top: 0;
@@ -17,3 +17,11 @@
   position: fixed;
 }
 
+
+@media only screen and (max-width: 1040px) {
+
+  .header{
+    width: $desktop-size-md;
+  }
+
+}
