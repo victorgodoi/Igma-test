@@ -2,7 +2,6 @@
 
 #divNewSletter{
   display: flex;
-  height: 900px;
   margin-bottom: $spacing-stack-xxxl;
   justify-content: space-between;
 }
@@ -78,11 +77,12 @@
   }
 
   .inputs{
-    height: 421px;
+    
   }
 
   .listCelular{
     max-width: 748px;
+    gap: 24px;
     
     .image{
       width: 161px;
