@@ -39,3 +39,14 @@
     border-color: $color-base-dark-contrast;
   }
 }
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  
+  .classOfButtton{
+    height: 48px;
+    min-width: 120px;
+    font-size: $font-size-xxs;
+    padding: $spacing-inline-sm;
+  }
+
+}

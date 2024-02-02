@@ -1,6 +1,6 @@
 @import '../../variables.scss';
 
-//Arrumar o input
+//Arrumar o input (quando coloco o mouse o outro se move)
 
 .classInput{
   width: 525px;
@@ -39,4 +39,14 @@
     font-weight: $font-weight-medium;
     line-height: $line-height-lg;
   }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+
+  .classInput{
+    width: 421px;
+    height: 56px;
+    font-size: $font-size-xs;
+  }
+
 }

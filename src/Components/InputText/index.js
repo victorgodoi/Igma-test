@@ -1,7 +1,7 @@
 import style from "./imputText.module.scss";
 
-const imputText = ({ nome }) => {
+const ImputText = ({ nome }) => {
   return <input placeholder={nome} className={style.classInput} />;
 };
 
-export default imputText;
+export default ImputText;

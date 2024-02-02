@@ -37,7 +37,7 @@
   height: 156px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: $spacing-stack-xxs;
 }
 
 .listCelular{
@@ -59,6 +59,39 @@
 
 }
 
-@media only screen and (max-width: 1040px) {
-  
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+
+  #divNewSletter{
+    margin-bottom: $spacing-stack-xxl;
+  }
+
+  .content{
+    max-width: 421px;
+  }
+
+  .title{
+    font-size: $font-size-xs;
+  }
+
+  .subTitle{
+    font-size: $font-size-md;
+  }
+
+  .inputs{
+    height: 421px;
+  }
+
+  .listCelular{
+    max-width: 748px;
+    
+    .image{
+      width: 161px;
+    }
+
+    ul{
+      gap: 24px;
+    }
+
+  }
+
 }
