@@ -4,13 +4,15 @@
   display: flex;
   height: 900px;
   margin-bottom: $spacing-stack-xxxl;
+  justify-content: space-between;
 }
 
-.Content{
+.content{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start; 
+  align-items: flex-start;
+  max-width: 525px;
 }
 
 .title{
@@ -42,7 +44,12 @@
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(4,1fr);
-  margin-left: 162px;
+  max-width: 937px; 
+
+  .image{
+    width: 193px;
+    height: auto;
+  }
 
   ul{
     display: flex;

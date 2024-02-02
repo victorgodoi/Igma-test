@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.container{
+	width: 100%;
+	max-width: $desktop-size-lg;	
+}
+
+@media only screen and (max-width: 1440px) {
+  
+	.container{
+		width: $desktop-size-md;	
+	}
+
+}

@@ -1,25 +1,28 @@
-import styles from "./header.module.scss";
+import style from "./header.module.scss";
 import LogoHeader from "../../Images/LogoHeader.svg";
 import CircularButton from "../CircularButton";
-//import { useState } from "react";
+import { useState } from "react";
+import Container from "../Container";
 
-const header = () => {
-  //const [avtar, atualizarAvatar] = useState();
+const Header = () => {
+  const [avtar, atualizarAvatar] = useState();
 
   return (
-    <header className={styles.header}>
-      <img
-        className={styles.logo}
-        src={LogoHeader}
-        width="120px"
-        height="42"
-        alt="Logo da Página"
-        title="Logo da Página"
-      />
-      <CircularButton />
-      {/* <CircularButton onClick={atualizarAvatar} /> */}
-    </header>
+    <Container className={style.sticky}>
+      <header className={style.header}>
+        <img
+          className={style.logo}
+          src={LogoHeader}
+          width="120px"
+          height="42"
+          alt="Logo da Página"
+          title="Logo da Página"
+        />
+        <CircularButton />
+        {/* <CircularButton onClick={atualizarAvatar} /> */}
+      </header>
+    </Container>
   );
 };
 
-export default header;
+export default Header;

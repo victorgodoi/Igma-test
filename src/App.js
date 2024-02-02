@@ -2,20 +2,21 @@ import style from "./App.module.scss";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Clients from "./Components/Clients";
-import NewSletter from "./Components/NewSletter";
+import NewSletter from "./Components/Newsletter";
 import Footer from "./Components/Footer";
+import Container from "./Components/Container";
 
 function App() {
   return (
-    <div id={style.page}>
+    <main id={style.page}>
       <Header />
-      <section id={style.limitedContent}>
+      <Container>
         <Hero />
         <Clients />
         <NewSletter />
         <Footer />
-      </section>
-    </div>
+      </Container>
+    </main>
   );
 }
 

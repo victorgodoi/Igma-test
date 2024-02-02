@@ -5,7 +5,7 @@ import vetorImage from "../../Images/vetorImage.svg";
 
 const hero = () => {
   return (
-    <div id={style.hero}>
+    <section id={style.hero}>
       <div className={style.divImg}>
         <img
           className={style.floatingImage}
@@ -44,7 +44,7 @@ const hero = () => {
           entre empresas e consumidores.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

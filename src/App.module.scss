@@ -52,14 +52,7 @@ table {
 	flex-direction: column;
 }
 
-#limitedContent{
-	width: $desktop-size-lg;	
-}
-
 @media only screen and (max-width: 1040px) {
-  
-	#limitedContent{
-		width: $desktop-size-md;	
-	}
+
 
 }

@@ -1,7 +1,8 @@
-import style from "./newSletter.module.scss";
+import style from "./newsletter.module.scss";
 import Button from "../Button";
 import Input from "../InputText";
 import Celular1 from "../../Images/celular1@3x.png";
+
 import Celular2 from "../../Images/celular2@3x.png";
 import Celular3 from "../../Images/celular3@3x.png";
 import Celular4 from "../../Images/celular4@3x.png";
@@ -14,12 +15,24 @@ import Celular10 from "../../Images/celular10@3x.png";
 import Celular11 from "../../Images/celular11@3x.png";
 import Celular12 from "../../Images/celular12@3x.png";
 
-const newSletter = () => {
+const Image = ({ image, image2x, image3x }) => {
+  return (
+    <img
+      className={style.image}
+      srcSet={`${image}, ${image2x} 2x, ${image3x} 3x`}
+      src={image3x}
+      alt="imagem celular"
+      title="imagem celular"
+    />
+  );
+};
+
+const Newsletter = () => {
   const valorWidth = 193;
 
   return (
-    <div id={style.divNewSletter}>
-      <div className={style.Content}>
+    <section id={style.divNewSletter}>
+      <div className={style.content}>
         <p className={style.title}>Assine nossa newsletter</p>
         <p className={style.subTitle}>
           Desenvolva-se conosco com conteúdos sobre Tecnologia e Design a cada
@@ -34,13 +47,14 @@ const newSletter = () => {
       <div className={style.listCelular}>
         <ul>
           <li>
-            <img
+            {/* <img
               src={Celular1}
               width={valorWidth}
               height="auto"
               alt="imagem celular"
               title="imagem celular"
-            />
+            /> */}
+            <Image image={Celular1} image2x={Celular1} image3x={Celular1} />
           </li>
           <li>
             <img
@@ -149,8 +163,8 @@ const newSletter = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default newSletter;
+export default Newsletter;
