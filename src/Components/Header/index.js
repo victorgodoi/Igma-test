@@ -1,11 +1,11 @@
 import style from "./header.module.scss";
 import LogoHeader from "../../Images/LogoHeader.svg";
 import CircularButton from "../CircularButton";
-import { useState } from "react";
+//import { useState } from "react";
 import Container from "../Container";
 
 const Header = () => {
-  const [avtar, atualizarAvatar] = useState();
+  //const [avtar, atualizarAvatar] = useState();
 
   return (
     <Container className={style.sticky}>
