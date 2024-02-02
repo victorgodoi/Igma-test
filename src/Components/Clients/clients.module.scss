@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   max-width: 525px;
+  margin-left: 10px;
 
   p{
     font-size: $font-size-lg;
@@ -25,7 +26,7 @@
   display: grid;
   gap: 0 105px;
   grid-template-columns: repeat(3,1fr);
-  margin-left: 8%;
+  margin-left: 5%;
 
   img{
     width: 242px;
@@ -33,14 +34,15 @@
   }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
 
   #clients{
     margin: 94px 0px;
   }
 
   .content{
-    max-width: 421px;
+    max-width: 411px;
+    margin-left: 10px;
     p{
       font-size: $font-size-md;
     }
@@ -54,5 +56,9 @@
       height: 135px;
     }
   }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
 
 }

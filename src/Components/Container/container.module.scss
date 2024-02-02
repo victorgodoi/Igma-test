@@ -5,10 +5,17 @@
 	max-width: $desktop-size-lg;	
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
   
 	.container{
 		width: $desktop-size-md;	
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+	.container{
+		width: $desktop-size-sm;
 	}
 
 }

@@ -10,6 +10,8 @@
   position: relative;
 
   .floatingImage{
+    width: 60px;
+    height: 157px;
     position: absolute;
     left: -16px;
     top: 310px;
@@ -30,6 +32,7 @@
   div{
     display: flex;
     align-items: center;
+
     p{
       font-size: $font-size-md;
       font-weight: $font-weight-medium;
@@ -37,6 +40,11 @@
       text-align: left;
       color: $color-base-dark-main;
       padding-right: $spacing-inline-xxxs;
+    }
+
+    img{
+      width: 72px;
+      height: 30px;
     }
   }
 
@@ -59,7 +67,7 @@
   }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
 
   .divImg {
   
@@ -76,10 +84,6 @@
 
       p{
         font-size: $font-size-xs;
-        font-weight: $font-weight-medium;
-        line-height: $line-height-sm;
-        text-align: left;
-        color: $color-base-dark-main;
       }
     }
 
@@ -91,4 +95,44 @@
       font-size: $font-size-xl;
     }
   }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+  #hero{
+    padding-top: $spacing-stack-xxl;
+  }
+
+  .divImg {
+
+    .floatingImage{
+      left: -14px;
+      top: 182px;
+    }
+
+    .imageHero{
+      width: 304px;
+      height: 504px;
+    }
+  }
+
+  .divContent{
+
+    div{
+
+      p{
+        font-size: $font-size-xxs;
+      }
+    }
+
+    p{
+      font-size: $font-size-xs;
+    }
+
+    h1{
+      font-size: $font-size-lg;
+    }
+
+  }
+
 }

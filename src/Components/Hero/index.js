@@ -8,10 +8,8 @@ const Hero = () => {
     <section id={style.hero}>
       <div className={style.divImg}>
         <img
-          className={style.floatingImage}
           src={vetorImage}
-          width="60px"
-          height="157px"
+          className={style.floatingImage}
           alt="vetor de imagem"
           title="vetor de imagem"
         />
@@ -27,8 +25,6 @@ const Hero = () => {
           <p>Prazer, somos</p>
           <img
             src={LogotipoIgma}
-            width="73xp"
-            height="30px"
             alt="Logotipo da Igma"
             title="Logotipo da Igma"
           />
