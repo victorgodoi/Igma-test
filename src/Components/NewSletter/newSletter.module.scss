@@ -24,7 +24,7 @@
 }
 
 .subTitle{
-  margin: $spacing-inline-md 0;
+  margin: $spacing-stack-md 0;
   font-size: $font-size-lg;
   font-weight: $font-weight-semibold;
   line-height: $line-height-lg;
@@ -96,5 +96,36 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
+  #divNewSletter{
+    margin-bottom: $spacing-stack-xxl;
+  }
 
+  .content{
+    max-width: 303px;
+  }
+
+  .title{
+    font-size: $font-size-xxs;
+  }
+
+  .subTitle{
+    font-size: $font-size-xs;
+  }
+
+  .inputs{
+    height: 134px;
+  }
+
+  .listCelular{
+    max-width: 542px;
+    gap: 20px;
+    
+    .image{
+      width: 113px;
+    }
+
+    ul{
+      gap: 20px;
+    }
+  }
 }
