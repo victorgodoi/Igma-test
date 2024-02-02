@@ -3,7 +3,7 @@ import imageHero3x from "../../Images/Image@3x.png";
 import LogotipoIgma from "../../Images/logotipoIgma.svg";
 import vetorImage from "../../Images/vetorImage.svg";
 
-const hero = () => {
+const Hero = () => {
   return (
     <section id={style.hero}>
       <div className={style.divImg}>
@@ -17,8 +17,6 @@ const hero = () => {
         />
         <img
           src={imageHero3x}
-          // width="525px"
-          // height="778px"
           className={style.imageHero}
           alt="paisagem vulcanica"
           title="paisagem vulcanica"
@@ -48,4 +46,4 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default Hero;
