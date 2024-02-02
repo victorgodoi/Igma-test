@@ -31,5 +31,11 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
+  .styleOfFooter{
+    margin-bottom: $spacing-stack-xxl;
 
+    p{
+      font-size: $font-size-xxxs;
+    }
+  }
 }
