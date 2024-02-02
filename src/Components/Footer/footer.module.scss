@@ -16,6 +16,13 @@
   }
 }
 
-@media only screen and (max-width: 1040px) {
-  
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+
+  .styleOfFooter{
+    margin-bottom: $spacing-stack-xxl;
+
+    p{
+      font-size: $font-size-xs;
+    }
+  }
 }
