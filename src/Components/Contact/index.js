@@ -47,9 +47,9 @@ const Column = ({ fast, className }) => {
   );
 };
 
-const Newsletter = () => {
+const Contact = () => {
   return (
-    <section id={style.divNewSletter}>
+    <section id={style.divContact}>
       <div className={style.content}>
         <p className={style.title}>Assine nossa newsletter</p>
         <p className={style.subTitle}>
@@ -72,4 +72,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newsletter;
+export default Contact;
