@@ -10,7 +10,6 @@
   top: 0;
   z-index: 9;
   background-color: $color-base-transparent;
-  animation: 0.7s animation ease-in;
 }
 
 .sticky{
@@ -22,6 +21,7 @@
 .logo{
   left: 0;
   position: fixed;
+  animation: 0.7s animation ease-in;
 }
 
 @keyframes animation {

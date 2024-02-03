@@ -7,7 +7,7 @@ const CircularButton = () => {
   const [logado, atualizarLogado] = useState(false);
 
   return (
-    <button className={style.button} onClick={() => atualizarLogado(!logado)}>
+    <button className={style.button} onClick={() => atualizarLogado(logado)}>
       <img
         className={logado ? style.avatar : style.icon}
         src={logado ? Avatar : Icon}

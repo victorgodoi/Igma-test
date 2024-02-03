@@ -11,6 +11,7 @@
   border: 1px solid $color-primary-main;
   cursor: pointer;
   overflow: hidden;
+  animation: 0.7s animation ease-in;
 
   &:focus{
     border-width: $border-width-thin;
@@ -46,3 +47,13 @@
   }
 }
 
+@keyframes animation {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
