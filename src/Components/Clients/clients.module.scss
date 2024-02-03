@@ -80,3 +80,32 @@
     }
   }
 }
+
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+
+  #clients{
+    flex-direction: column;
+    margin: $spacing-stack-xxl 0px;
+  }
+
+  .content{
+    max-width: 342px;
+    margin-left: 0;
+    margin-bottom: $spacing-stack-sm;
+  
+    p{
+      font-size: $font-size-xs;
+    }
+  }
+
+  .listClients{
+    gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0;
+  }
+
+    img{
+      width: 170px;
+      height: 124px;
+    }
+}
