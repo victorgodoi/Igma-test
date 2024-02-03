@@ -52,17 +52,17 @@ table {
 	flex-direction: column;
 }
 
-@media only screen and (min-width: 1281px) and (max-width: 1440px) {
-
-
+.animation{
+	animation: 0.7s animation ease-in;
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-
-
-}
-
-@media only screen and (min-width: 360px) and (max-width: 1024px) {
-
-
+@keyframes animation {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

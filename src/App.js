@@ -10,7 +10,7 @@ function App() {
   return (
     <main id={style.page}>
       <Header />
-      <Container>
+      <Container className={style.animation}>
         <Hero />
         <Clients />
         <NewSletter />
