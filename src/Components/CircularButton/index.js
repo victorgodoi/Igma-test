@@ -4,17 +4,13 @@ import Avatar from "../../Images/avatar@3x.png";
 import { useState } from "react";
 
 const CircularButton = () => {
-  const [avatar, atualizarAvatar] = useState([Icon]);
+  const [logado, atualizarLogado] = useState(false);
 
   return (
-    <button
-      className={style.styleButton}
-      onClick={() => atualizarAvatar([Avatar])}
-    >
+    <button className={style.button} onClick={() => atualizarLogado(!logado)}>
       <img
-        src={avatar}
-        width="24px"
-        height="24px"
+        className={logado ? style.avatar : style.icon}
+        src={logado ? Avatar : Icon}
         alt="Avatar"
         title="Avatar"
       />
