@@ -129,3 +129,31 @@
     }
   }
 }
+
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+
+  #divNewSletter{
+    display: flex;
+    margin-bottom: $spacing-stack-xxl;
+    justify-content: space-between;
+  }
+
+  .content{
+    max-width: 342px;
+    margin-left: 0;
+  }
+
+  .title{
+    font-size: $font-size-xxs;
+    
+  }
+
+  .subTitle{
+    font-size: $font-size-xs;
+    margin: $spacing-stack-md 0;
+  }
+
+  .inputs{
+    height: 134px;
+  }
+}

@@ -57,5 +57,13 @@
     height: 56px;
     font-size: $font-size-xs;
   }
+}
 
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+
+  .classInput{
+    width: 342px;
+    height: 56px;
+    font-size: $font-size-xs;
+  }
 }

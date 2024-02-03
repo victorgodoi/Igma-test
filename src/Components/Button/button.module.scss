@@ -11,7 +11,7 @@
   font-size: $font-size-xs;
   font-weight: $font-weight-semibold;
   line-height: $line-height-lg;
-  padding: $spacing-inline-md;
+  padding: 25px;
   background-color: $color-base-dark-highlight;
   border: 1px solid $color-base-dark-highlight;
   cursor: pointer;
@@ -46,14 +46,26 @@
     height: 48px;
     min-width: 120px;
     font-size: $font-size-xxs;
-    padding: $spacing-inline-sm;
+    padding: 23px;
   }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
   .classOfButtton{
-    padding: 32px;
+    height: 48px;
+    min-width: 120px;
+    font-size: $font-size-xxs;
+    padding: 23px;
   }
+}
 
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+
+  .classOfButtton{
+    height: 48px;
+    min-width: 120px;
+    font-size: $font-size-xxs;
+    padding: 23px;
+  }
 }
