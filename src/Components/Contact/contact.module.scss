@@ -57,7 +57,7 @@
   
     .image{
       width: 193px;
-      height: auto;
+      height: 406px;
     }
   }
 }
@@ -124,6 +124,7 @@
     
       .image{
         width: 161px;
+        height: 339px;
       }
     }
   }
@@ -131,7 +132,7 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
-  #divNewSletter{
+  #divContact{
     margin-bottom: $spacing-stack-xxl;
   }
 
@@ -164,6 +165,7 @@
     
       .image{
         width: 113px;
+        height: 238px;
       }
     }
   }
@@ -171,7 +173,7 @@
 
 @media only screen and (max-width: 1024px) {
 
-  #divNewSletter{
+  #divContact{
     display: flex;
     margin-bottom: $spacing-stack-xxl;
     justify-content: space-between;
@@ -217,6 +219,7 @@
 
       image{
         width: 113px;
+        height: 238px;
       }
     }
   }
