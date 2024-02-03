@@ -40,21 +40,52 @@
   gap: $spacing-stack-xxs;
 }
 
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .devices{
+    animation: 20s slide-y infinite linear;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  
+    &.fast{
+      animation-duration: 15s;
+    }
+  
+    .image{
+      width: 193px;
+      height: auto;
+    }
+  }
+}
+
 .listCelular{
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(4,1fr);
-  max-width: 937px; 
+  max-width: 937px;
+  overflow: hidden;
+  max-height: 900px; 
+}
 
-  .image{
-    width: 193px;
-    height: auto;
+@keyframes slide-y {
+  from {
+    transform: translateY(0);
   }
+  to {
+    transform: translateY(-100%);
+  }
+}
 
-  ul{
-    display: flex;
-    flex-direction: column;
-    gap: 40px
+@keyframes slide-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
   }
 }
 
@@ -83,13 +114,17 @@
   .listCelular{
     max-width: 748px;
     gap: 24px;
-    
-    .image{
-      width: 161px;
-    }
+  }
 
-    ul{
+  .column{
+    gap: 24px;
+
+    .devices{
       gap: 24px;
+    
+      .image{
+        width: 161px;
+      }
     }
   }
 }
@@ -119,33 +154,37 @@
   .listCelular{
     max-width: 542px;
     gap: 20px;
-    
-    .image{
-      width: 113px;
-    }
+  }
 
-    ul{
+  .column{
+    gap: 20px;
+
+    .devices{
       gap: 20px;
+    
+      .image{
+        width: 113px;
+      }
     }
   }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 
   #divNewSletter{
     display: flex;
     margin-bottom: $spacing-stack-xxl;
     justify-content: space-between;
+    flex-direction: column;
   }
 
   .content{
-    max-width: 342px;
+    max-width: 90%;
     margin-left: 0;
   }
 
   .title{
     font-size: $font-size-xxs;
-    
   }
 
   .subTitle{
@@ -155,5 +194,30 @@
 
   .inputs{
     height: 134px;
+  }
+
+  .listCelular{
+    margin: $spacing-stack-xxl 0;
+    width: 99vw;
+    margin-left: -5%;
+  }
+
+  .columnVisibility{
+    display: none;
+  }
+
+  .column {
+    gap: $spacing-inline-xxs;
+    flex-direction: row;
+  
+    .devices{
+      gap: $spacing-inline-xxs;
+      flex-direction: row;
+      animation: 20s slide-x infinite linear;
+
+      image{
+        width: 113px;
+      }
+    }
   }
 }

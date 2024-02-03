@@ -81,7 +81,7 @@
   }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 
   #clients{
     flex-direction: column;
@@ -89,7 +89,7 @@
   }
 
   .content{
-    max-width: 342px;
+    max-width: 90%;
     margin-left: 0;
     margin-bottom: $spacing-stack-sm;
   
