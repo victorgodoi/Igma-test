@@ -1,4 +1,4 @@
-import style from "./newsletter.module.scss";
+import style from "./contact.module.scss";
 import Button from "../Button";
 import Input from "../InputText";
 //importação das imagens

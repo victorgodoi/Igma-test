@@ -2,7 +2,7 @@ import style from "./App.module.scss";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Clients from "./Components/Clients";
-import NewSletter from "./Components/Newsletter";
+import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Container from "./Components/Container";
 
@@ -13,7 +13,7 @@ function App() {
       <Container className={style.animation}>
         <Hero />
         <Clients />
-        <NewSletter />
+        <Contact />
         <Footer />
       </Container>
     </main>
