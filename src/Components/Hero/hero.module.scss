@@ -132,7 +132,53 @@
     h1{
       font-size: $font-size-lg;
     }
+  }
+}
 
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+  
+  #hero{
+    padding-top: $spacing-stack-xxs;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
+  .divImg {
+  
+    .floatingImage{
+      left: -16px;
+      top: 213px;
+    }
+  
+    .imageHero{
+      width: 366px;
+      height: 560px;
+    }
+  }
+
+  .divContent {
+    margin-left: 0;
+    margin-bottom: $spacing-stack-xxl;
+    width: 342px;
+  
+    div{
+      display: flex;
+      align-items: center;
+  
+      p{
+        font-size: $font-size-xxs;
+        padding-right: $spacing-inline-nano;
+      }
+    }
+
+    p{
+      font-size: $font-size-xs;
+    }
+  
+    h1{
+      font-size: $font-size-lg;
+      margin-top: $spacing-stack-xl;
+      margin-bottom: $spacing-stack-xs;
+    }
+  }
 }
